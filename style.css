@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: dovetail;
+  src: url("./dovetail/dovetail.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 0;
+  overflow-x: hidden;
+}
+
+header navbar {
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px;
+}
+header navbar .logo {
+  position: absolute;
+  left: 0;
+  height: 45px;
+}
+header navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+header navbar ul li {
+  padding: 10px;
+}
+header navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+header navbar ul li a:hover {
+  opacity: 0.5;
+}
+
+.container {
+  background-color: black;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+.container h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.container p {
+  padding: 25px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+#contact {
+  background-color: black;
+  text-align: center;
+}
+#contact h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+  color: #fff;
+  font-size: 2rem;
+}
+#contact h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+#contact form {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  padding: 25px;
+  color: #fff;
+}
+#contact form input[type=text] {
+  border: none;
+  border-bottom: 2px solid #002B5B;
+  width: 100%;
+  color: #fff;
+}
+#contact form .btn {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#contact form .btn:hover {
+  opacity: 0.75;
+}
+
+#projects {
+  background-color: black;
+}
+#projects h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 2rem;
+  color: #fff;
+}
+#projects .column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  justify-content: space-between;
+}
+#projects img {
+  width: 100%;
+}
+#projects .caption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  margin-left: 140px;
+  color: #fff;
+}
+
+footer {
+  background-color: black;
+}
+footer .footer {
+  width: 100%;
+  height: 80px;
+  margin: 8px;
+}
+footer .footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 23px;
+  line-height: 23px;
+}/*# sourceMappingURL=style.css.map */
